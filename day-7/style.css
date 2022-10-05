@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background: url(./assets/pexels-mike-b-945443.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background:  rgb(253, 240, 213, 0.6);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    border: 2px double #fdf0d5;
+    border-radius: 7px;
+    box-shadow: 0 4px 30px rgb(0, 0, 0, 0.2);
+}
+
+.container-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    font-size: 2.5rem;
+    color: #c1121f;
+    text-decoration: 2px overline #c1121f;
+    transition: 0.3s;
+}
+
+.container-title:hover {
+    font-size: 2.6rem;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+input {
+    height: 4vh;
+    width: 35%;
+    padding-left: 10px;
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+#input {
+    margin-left: 4rem;
+}
+
+#input:hover, #result:hover {
+    /* border-color: #fdf0d5; */
+    border-color: #c1121f;
+}
+
+span {
+    font-size: 1.5rem;
+    margin: 0.3rem;
+    /* border-color: #fdf0d5; */
+}
+
+#inputType,#resultType {
+    height: 4vh;
+    width: 10vw;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    /* color: #fdf0d5; */
+    color: #c1121f;
+    border: 3px double gray;
+    border-radius: 5px;
+    background: none;
+}
+
+#inputType {
+    margin: 10px 17%;
+}
